@@ -23,6 +23,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
 
+
 # # Simple workflow for deploying static content to GitHub Pages
 # name: Deploy static content to Pages
 

@@ -5,7 +5,7 @@ import projImg3 from "../assets/img/project-img/project-img3.png";
 import pineapple from "../assets/img/project-img/Pineapple Budget.png"
 import { ProjectCard } from "./ProjectCard";
 import { ProjectCard2 } from "./ProjectCard2";
-import TrackVisibility from "react-on-screen";
+// import TrackVisibility from "react-on-screen";
 import "animate.css"
 
 export const Projects = () => {

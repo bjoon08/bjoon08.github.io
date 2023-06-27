@@ -1,3 +1,5 @@
+
+
 import { useState, useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
@@ -21,7 +23,7 @@ export const Banner = () => {
         }, delta)
 
         return () => { clearInterval(ticker)};
-    }, [text])
+    }, [text]) // eslint-disable-line
 
     const tick = () => {
         let i = loopNum % toRotate.length;

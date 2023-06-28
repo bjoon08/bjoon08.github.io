@@ -16,7 +16,7 @@ import devIcon10 from "../assets/img/dev-icons/bootstrap.svg";
 import devIcon11 from "../assets/img/dev-icons/tailwind.svg";
 import devIcon12 from "../assets/img/dev-icons/material.svg";
 import devIcon13 from "../assets/img/dev-icons/mongodb.svg";
-import devIcon14 from "../assets/img/dev-icons/redux.svg";
+import devIcon14 from "../assets/img/dev-icons/vitejs.svg";
 import devIcon15 from "../assets/img/dev-icons/rabbitmq.svg";
 import devIcon16 from "../assets/img/dev-icons/swift.svg";
 import devIcon17 from "../assets/img/dev-icons/bash.svg";
@@ -32,7 +32,7 @@ export const Skills = () => {
             imgUrl: devIcon5,
         },
         {
-            title: "Redux",
+            title: "ViteJS",
             imgUrl: devIcon14,
         },
         {
@@ -115,7 +115,7 @@ export const Skills = () => {
                     <div className="skill-bx wow zoomIn">
                         <div>
                         <h2>Skills</h2>
-                        <p>Below is a list of langauges and skills I have acquired so far.<br></br> I want to add percentages to show confidence in knowledge.</p>
+                        <p>Below is a list of langauges and skills I have acquired so far.<br></br></p>
                         </div>
                     <Tab.Container id="skills-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">

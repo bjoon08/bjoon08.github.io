@@ -65,10 +65,10 @@ export const Banner = () => {
                                 <h1>{`Hi! I'm Brandon Jang,`}</h1>
                                 <h2><span className='wrap'> {text}</span></h2>
                                 <p>
-                                    I am an ambitious <bold>full-stack software engineer</bold> based in Torrance, CA. As a recent graduate of HackReactor's
+                                    I am an ambitious <strong>full-stack software engineer</strong> based in Torrance, CA. As a recent graduate of HackReactor's
                                     Advanced Software Engineering program, I am now ready to embark on my professional journey in the tech industry.
                                     With a solid educational background and hands-on experience gained through rigorous projects, I am well-versed
-                                    in the latest technologies. I am <bold>actively</bold> seeking my first professional opportunity, where I can apply my expertise,
+                                    in the latest technologies. I am <strong>actively</strong> seeking my first professional opportunity, where I can apply my expertise,
                                     contribute to innovative projects, and thrive in a fast-paced, forward-thinking organization.
                                 </p>
                                 <button onClick={() => scrollToSection('#connect')}>Let's Connect <ArrowRightCircle size={25} /></button>

@@ -5,7 +5,7 @@ import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import Joon from '../assets/img/Joon.jpg';
 
-export const NavBar = () => {
+export const NavBar = ({ setOpenModal }) => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
 
@@ -74,7 +74,10 @@ export const NavBar = () => {
                             <a href="https://www.facebook.com/brandon.jang.56"><img src={navIcon2} alt="" /></a>
                             <a href="https://www.instagram.com/b.jjoon/"><img src={navIcon3} alt="" /></a>
                         </div>
-                        <button className="vvd" onClick={() => scrollToSection('#connect')} >
+                        <button onClick={() => {setOpenModal(true)}} >
+                            <span>Resume</span>
+                        </button>
+                        <button onClick={() => scrollToSection('#connect')} >
                             <span>Let's Connect!</span>
                         </button>
                     </span>

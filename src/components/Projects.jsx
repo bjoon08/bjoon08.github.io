@@ -10,7 +10,7 @@ import pyThon from "../assets/img/dev-icons/python.svg";
 import reaCt from "../assets/img/dev-icons/reactjs.svg";
 import docKer from "../assets/img/dev-icons/docker.svg";
 import bootStrap from "../assets/img/dev-icons/bootstrap.svg";
-import tailWind from "../assets/img/dev-icons/tailwind.svg";
+// import tailWind from "../assets/img/dev-icons/tailwind.svg";
 import viTe from "../assets/img/dev-icons/vitejs.svg";
 import typeScript from "../assets/img/dev-icons/typescript.svg";
 import cSs from "../assets/img/dev-icons/css.svg";
@@ -31,12 +31,13 @@ export const Projects = () => {
             imgUrl: projImg1,
             projUrl: conGo,
             coDe: pyThon,
-            coDeprc: "50%",
+            coDeprc: "49.9%",
             coDe1: javaScript,
-            coDe1prc: "50%",
+            coDe1prc: "49.9%",
             coDe2: reaCt,
             coDe3: docKer,
             coDe4: bootStrap,
+            coDe4prc: "0.2%"
         },
         {
             title: "CarCar",

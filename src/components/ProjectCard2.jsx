@@ -19,8 +19,12 @@ export const ProjectCard2 = ({ title, description, imgUrl, projUrl, coDe, coDepr
                             <img className='proj-txtx-img' src={coDe3} alt="" />
                             <p>{coDe3prc}</p>
                         </div>
-                        <img className='proj-txtx-img' src={coDe1} alt="" />
-                        <img className='proj-txtx-img' src={coDe2} alt="" />
+                        <div>
+                            <img className='proj-txtx-img' src={coDe1} alt="" />
+                        </div>
+                        <div>
+                            <img className='proj-txtx-img' src={coDe2} alt="" />
+                        </div>
                     </div>
                     </div>
                 </div>

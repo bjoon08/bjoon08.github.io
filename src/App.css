@@ -304,7 +304,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-family: "Titillium-Bold";
 }
 
-.banner bold {
+.banner strong {
   font-size: 26px;
   font-weight: 800;
   color: #604f40;
@@ -666,6 +666,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-display {
   display: flex;
   justify-content: center;
+  padding-top: 35px;
   /* flex-direction: row; */
 }
 
